@@ -3,7 +3,7 @@ const axios = require("axios");
 
 const app = express();
 
-const itemIDs = ["1", "2", "3", "4"];
+const itemIDs = ["0", "1", "2", "3"];
 
 app.get("/", (req, res) => {
     const { userid, itemid } = req.query;
